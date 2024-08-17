@@ -77,5 +77,4 @@ def verify_code(code):
     return jsonify({"message": "Verification Successful", 'code':'200'}), 200
 
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', debug=True)
+
